@@ -13,4 +13,9 @@ public class Utility {
         while(preferences.contains("category" + i)) i++;
         return i;
     }
+    public static int findLastMedicineIndex(SharedPreferences preferences) {
+        int i = 0;
+        while(preferences.contains("medicine" + i)) i++;
+        return i;
+    }
 }

@@ -21,6 +21,7 @@
         android:layout_marginRight="8dp"
         android:enabled="true"
         android:text="Add Medicine"
+        android:onClick="onAddMedicineButtonClick"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -33,6 +34,7 @@
         android:layout_marginTop="8dp"
         android:clickable="true"
         android:focusable="true"
+        android:onClick="onBackButtonClick"
         app:backgroundTint="?android:attr/panelBackground"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
