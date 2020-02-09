@@ -4,6 +4,7 @@
     <string name="title_chat">Chat</string>
     <string name="title_logs">Logs</string>
     <string name="title_activity_add_log">Add log</string>
+    <string name="title_activity_add_medicine"></string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in or register</string>

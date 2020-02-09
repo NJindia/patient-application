@@ -13,6 +13,9 @@
             android:name=".ui.logs.AddLog"
             android:label="@string/title_activity_add_log"></activity>
         <activity
+            android:name=".ui.medicine.AddMedicine"
+            android:label="@string/title_activity_add_medicine"></activity>
+        <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
             <intent-filter>
@@ -21,6 +24,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

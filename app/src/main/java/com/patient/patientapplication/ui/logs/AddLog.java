@@ -28,7 +28,7 @@ public class AddLog extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_log);
-        final EditText newCatText = findViewById(R.id.new_category_text);
+        final EditText newCatText = findViewById(R.id.medication_text);
         Spinner spinner = findViewById(R.id.add_category);
         SharedPreferences catPrefs =
                 getApplicationContext().getSharedPreferences("Categories", 0);
@@ -66,7 +66,7 @@ public class AddLog extends AppCompatActivity {
     public void onAddButtonClick(View v) {
         String category;
         Spinner spinner = findViewById(R.id.add_category);
-        EditText newCatText = findViewById(R.id.new_category_text);
+        EditText newCatText = findViewById(R.id.medication_text);
         if(newCategory) {
             category = newCatText.getText().toString();
             SharedPreferences catPrefs =
