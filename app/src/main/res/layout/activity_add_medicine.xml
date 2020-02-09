@@ -34,7 +34,6 @@
         android:layout_marginTop="8dp"
         android:clickable="true"
         android:focusable="true"
-        android:onClick="onBackButtonClick"
         app:backgroundTint="?android:attr/panelBackground"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
